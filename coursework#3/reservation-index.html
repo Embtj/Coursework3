@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="reservation page">
+    <meta name="author" content="Embla Johansen">
+    <title>Reservation | I Scream</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="background">
+    <header class="head">
+        <figure>
+            <img src="coursework3-sources/logos/icecream2.png" alt="I scream logo with a an evil ice cream cone">
+        </figure>
+    </header>
+    <nav class="menu">
+        <ul class="menulist">
+            <li><a href="home-index.html">Home</a></li>
+            <li><a href="menu-index.html">Menu</a></li>
+            <li><a href="reservation-index.html">Reservations</a></li>
+            <li><a href="contact-index.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="content-box">
+        <h1>Make a reservation:</h1>
+        <div class="forms">
+            <fieldset>
+                <legend>Reservation</legend>
+                <label>Date:<br />
+                    <input type="date" name="date"></label><br />
+                <label>Time:<br />
+                    <input type="time" name="usr_time"></label><br />
+                <label>Adults:<br />
+                    <input type="number" name="quantity" min="0"></label><br />
+                <label>children:<br />
+                    <input type="number" name="quantity" min="0"></label><br />
+                <label>Infants:<br />
+                    <input type="number" name="quantity" min="0"></label><br />
+                <label>First name:<br />
+                    <input type="text" name="firstname"></label><br />
+                <label>Surname:<br />
+                    <input type="text" name="surname"></label><br />
+                <label>Tel:<br />
+                    <input type="text" name="mobile"></label><br />
+                <label>Email:<br />
+                    <input type="email" name="email"></label><br />
+                <label>Other comments:<br />
+                    <textarea name="comments" cols="20" rows="4">Enter your comments...</textarea></label><br />
+                <input type="submit">
+            </fieldset>
+        </div>
+    </div>
+</body>
+
+</html>
